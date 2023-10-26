@@ -25,7 +25,7 @@
         return json_encode($jsonArray);
     }
 
-    $csvUrl = 'https://testingalpro.alwaysdata.net/api/coffee.csv';
+    $csvUrl = 'coffee.csv';
     $jsonData = csvToJson($csvUrl);
 
     echo $jsonData
